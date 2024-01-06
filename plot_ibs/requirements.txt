@@ -1,0 +1,4 @@
+pyYAML==6.0.1
+biopython==1.81
+toytree==2.0.1
+ete3==3.1.3
