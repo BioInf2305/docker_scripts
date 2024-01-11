@@ -1,0 +1,3 @@
+pandas==2.1.4
+pyYAML==6.0.1
+bokeh==3.2.1
