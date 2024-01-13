@@ -1,0 +1,5 @@
+install.packages("remotes")
+library("remotes")
+install_version("rehh",version="3.2.2",repos="http://cran.us.r-project.org")
+install_version("data.table",version="1.14.10",repos="http://cran.us.r-project.org")
+install_version("R.utils",version="2.12.3",repos="http://cran.us.r-project.org")
