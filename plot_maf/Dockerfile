@@ -1,8 +1,6 @@
 FROM python:3.10-alpine
 
-RUN apk update && apk add python3 py3-pip bash
-
-RUN pip install --no-cache-dir --upgrade pip
+RUN apk update && apk add --no-cache python3 py3-pip bash && pip install --no-cache-dir --upgrade pip
 
 COPY requirements.txt .
 
